@@ -349,7 +349,7 @@
 .sd-f-wrapper blockquote { margin: 0px 0px 1rem; border-left: 1px solid rgb(202, 202, 202); }
 .sd-f-wrapper blockquote, .sd-f-wrapper blockquote p { color: rgb(138, 138, 138); }
 .sd-f-wrapper cite { display: block; color: rgb(138, 138, 138); }
-.sd-f-wrapper cite::before { content: "â€” "; }
+.sd-f-wrapper cite::before { content: "Ã¢â‚¬â€ "; }
 .sd-f-wrapper abbr, .sd-f-wrapper abbr[title] { border-bottom: 1px dotted rgb(10, 10, 10); cursor: help; text-decoration: none; }
 .sd-f-wrapper figure { margin: 0px; }
 .sd-f-wrapper code { border: 1px solid rgb(202, 202, 202); background-color: rgb(230, 230, 230); font-family: Consolas, "Liberation Mono", Courier, monospace; font-weight: normal; color: rgb(10, 10, 10); }
@@ -497,7 +497,7 @@ p + .sd-f-wrapper .stat { margin-top: -1rem; }
 :last-child:not(.is-active) > .sd-f-wrapper .accordion-title { border-bottom: 1px solid rgb(230, 230, 230); border-radius: 0px; }
 .sd-f-wrapper .accordion-title:hover, .sd-f-wrapper .accordion-title:focus { background-color: rgb(230, 230, 230); }
 .sd-f-wrapper .accordion-title::before { position: absolute; top: 50%; right: 1rem; content: "+"; }
-.is-active > .sd-f-wrapper .accordion-title::before { content: "â€“"; }
+.is-active > .sd-f-wrapper .accordion-title::before { content: "Ã¢â‚¬â€œ"; }
 .sd-f-wrapper .accordion-content { display: none; padding: 1rem; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(230, 230, 230); border-right-color: rgb(230, 230, 230); border-left-color: rgb(230, 230, 230); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; background-color: rgb(254, 254, 254); color: rgb(10, 10, 10); }
 :last-child > .sd-f-wrapper .accordion-content:last-child { border-bottom: 1px solid rgb(230, 230, 230); }
 .sd-f-wrapper .accordion-menu li { width: 100%; }
@@ -759,9 +759,9 @@ p + .sd-f-wrapper .stat { margin-top: -1rem; }
 .sd-f-wrapper .pagination .current { background: rgb(160, 66, 127); color: rgb(254, 254, 254); cursor: default; }
 .sd-f-wrapper .pagination .disabled { color: rgb(202, 202, 202); cursor: not-allowed; }
 .sd-f-wrapper .pagination .disabled:hover { background: transparent; }
-.sd-f-wrapper .pagination .ellipsis::after { content: "â€¦"; color: rgb(10, 10, 10); }
-.sd-f-wrapper .pagination-previous a::before, .sd-f-wrapper .pagination-previous.disabled::before { display: inline-block; content: "Â«"; }
-.sd-f-wrapper .pagination-next a::after, .sd-f-wrapper .pagination-next.disabled::after { display: inline-block; content: "Â»"; }
+.sd-f-wrapper .pagination .ellipsis::after { content: "Ã¢â‚¬Â¦"; color: rgb(10, 10, 10); }
+.sd-f-wrapper .pagination-previous a::before, .sd-f-wrapper .pagination-previous.disabled::before { display: inline-block; content: "Ã‚Â«"; }
+.sd-f-wrapper .pagination-next a::after, .sd-f-wrapper .pagination-next.disabled::after { display: inline-block; content: "Ã‚Â»"; }
 .sd-f-wrapper .progress { height: 1rem; margin-bottom: 1rem; border-radius: 0px; background-color: rgb(202, 202, 202); }
 .sd-f-wrapper .progress.primary .progress-meter { background-color: rgb(160, 66, 127); }
 .sd-f-wrapper .progress.secondary .progress-meter { background-color: rgb(118, 118, 118); }
